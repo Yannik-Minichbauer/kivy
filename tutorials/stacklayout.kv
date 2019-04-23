@@ -1,0 +1,37 @@
+# ---------- STACKLAYOUT.KV ----------
+ 
+# orientation is lr-tb or left to right, top to bottom
+# Other options are tb-lr, rl-tb, tb-rl, lr-bt, bt-lr,
+# rl-bt, bt-rl
+<StackLayout>:
+    orientation: "lr-tb"
+    spacing: 10
+    padding: 10
+ 
+    # size_hint defines the percentage of space taken on the
+    # x access and the percentage of space left over by the
+    # other widgets
+    Button:
+        text: "Q"
+        size_hint: None, .15
+        width: 100
+    Button:
+        text: "W"
+        size_hint: None, .15
+        width: 120
+    Button:
+        text: "E"
+        size_hint: None, .15
+        width: 140
+    Button:
+        text: "R"
+        size_hint: None, .15
+        width: 160
+    Button:
+        text: "T"
+        size_hint: None, .15
+        width: 180
+    Button:
+        text: "Y"
+        size_hint: None, .15
+        width: 200
